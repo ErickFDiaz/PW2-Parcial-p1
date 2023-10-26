@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Employee } from './empleado.model';
+import { Employee } from './employee.model';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +7,7 @@ import { Employee } from './empleado.model';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'Listado de empleados';
+  title = 'Listado de Empleados';
 
   employees: Employee[] = [
     new Employee(
